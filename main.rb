@@ -12,7 +12,7 @@ require 'yaml'
 
 # flowchart:
 all_balances = YAML.load_file('bank of hell.rb')
-puts 'Welcome to the bank of hell, Please Enter your name'
+puts 'Welcome to the bank of wewinyoulose, Please Enter your name'
 name = gets.chomp
 if all_balances.include?(name.downcase)
   puts 'Welcome back lets get started'
